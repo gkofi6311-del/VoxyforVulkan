@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "voxulkan",
+  "version": "0.1.0",
+  "name": "VoxUlkan",
+  "description": "LoD rendering for extreme render distances using Vulkan",
+  "authors": ["francis"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.francis.voxulkan.VoxUlkanMod"]
+  },
+  "mixins": ["voxulkan.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
